@@ -1,8 +1,8 @@
 # main links links
 main:
-  - title: "Community"
-    url: https://citroscience.org
-  - title: "Slack"
-    url: https://blog.citroscience.org/slack/
-#  - title: "About" 
-#    url: https://blog.citroscience.org/about/
+  - title: "Works"
+    url: /works/
+#  - title: "Blog"
+#    url: /blog/
+  - title: "About"
+    url: /about/

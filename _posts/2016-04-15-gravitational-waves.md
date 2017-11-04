@@ -41,7 +41,7 @@ spirally towards each other. it was found that the decay in orbital period of
 these stars should be due to the loss of energy due to emission of gravitational
 waves
 
-![full](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Main_dwarf_collage_lg_landscape.png/800px-Main_dwarf_collage_lg_landscape.png){: .full}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Main_dwarf_collage_lg_landscape.png/800px-Main_dwarf_collage_lg_landscape.png){: .}
 
 ## But is there any other way of detecting gravitational waves?
 

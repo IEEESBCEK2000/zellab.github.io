@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "citroscience"
-title_separator          : "-"
-name                     : "citroscience"
-description              : "A Community for Science Enthusiasts"
+title                    : "Zellab Studios"
+title_separator          : "|"
+name                     : "Zellab"
+description              : "Graphic Designing Firm"
 url                      : ""
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -222,3 +222,8 @@ defaults:
       comments: true
       share: true
       related: true
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
