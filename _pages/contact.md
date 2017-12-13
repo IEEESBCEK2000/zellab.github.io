@@ -8,7 +8,7 @@ permalink: /contact/
 ---
 
 <div class="container">
-  <form action="/action_page.php">
+  <form method="POST" action="https://formspree.io/contact@zellab.com">
     
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
