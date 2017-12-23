@@ -14,7 +14,7 @@ permalink: /contact/
     <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
     <label for="fname">Email</label>
     <input type="email" id="fname" name="email" placeholder="Your Email.." required>
