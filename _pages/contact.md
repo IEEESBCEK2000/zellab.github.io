@@ -16,8 +16,11 @@ permalink: /contact/
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
+    <label for="fname">Email</label>
+    <input type="email" id="fname" name="email" placeholder="Your Email..">
+
     <label for="fname">Company</label>
-    <input type="text" id="fname" name="firstname" placeholder="Company name..">
+    <input type="text" id="fname" name="company" placeholder="Company name..">
 
     <p> </p>
 
