@@ -11,21 +11,21 @@ permalink: /contact/
   <form method="POST" action="https://formspree.io/contact@zellab.com">
     
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
     <label for="fname">Email</label>
-    <input type="email" id="fname" name="email" placeholder="Your Email..">
+    <input type="email" id="fname" name="email" placeholder="Your Email.." required>
 
     <label for="fname">Company</label>
-    <input type="text" id="fname" name="company" placeholder="Company name..">
+    <input type="text" id="fname" name="company" placeholder="Company name.." required>
 
     <p> </p>
 
     <label for="country">Country</label>
-    <select id="country" name="country">
+    <select id="country" name="country" required>
         <option value="">Country...</option>
 		<option value="Afganistan">Afghanistan</option>
 		<option value="Albania">Albania</option>
@@ -278,7 +278,7 @@ permalink: /contact/
 
     <p></p>
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
 
     <p></p>
     <input type="submit" value="Submit" style="padding: 4px; font-weight: bold; border-width: 4px; border-color: turquoise;">
