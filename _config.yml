@@ -42,7 +42,7 @@ facebook:
   username               : "zellabstudios"
   app_id                 :
   publisher              :
-og_image                 : "\images\logo.png"# Open Graph/Twitter default site image
+og_image                 : "logo.png"# Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -217,8 +217,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: true
       share: true
       related: true
