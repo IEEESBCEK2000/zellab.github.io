@@ -36,6 +36,8 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : "zellabstudios"
+instagram:
+  username               : "zellabstudios"
 google_plus:
   username               : "101362486249257509056"
 facebook:
@@ -81,7 +83,7 @@ author:
   github           :
   google_plus      : "zellabstudios"
   keybase          :
-  instagram        :
+  instagram        : "zellabstudios"
   lastfm           :
   linkedin         :
   pinterest        :
