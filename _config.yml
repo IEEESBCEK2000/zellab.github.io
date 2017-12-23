@@ -20,7 +20,7 @@ words_per_minute         : 150
 comments:
   provider               : disqus
   disqus:
-    shortname            : zellabstudios
+    shortname            : zellab
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
