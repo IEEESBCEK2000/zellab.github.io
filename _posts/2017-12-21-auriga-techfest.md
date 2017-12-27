@@ -14,7 +14,7 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "zellab"
-image: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Gravitational_Waves_Background.png"
+image: "https://i.imgur.com/w0tuTW2.png"
 summary: "Simplistic but cutting edge logo design"
 ---
 
