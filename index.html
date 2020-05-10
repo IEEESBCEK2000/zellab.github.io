@@ -1,22 +1,62 @@
----
-title: ""
-layout: archive
-type: pages
-excerpt: 
-header:
-  overlay_image: header.png
-  
-sitemap: false
-author_profile: false
-permalink: /
----
+<!DOCTYPE html>
+<html>
 
-{% include base_path %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Rebrand Zellab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 
-<h3 class="archive__subtitle">Recent Works</h3>
+<body>
+    <div style="margin-top: -21px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" style="height: 121px;"><img src="assets/img/Group%202.png" style="margin-top: 66px;height: 35%;"></div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-bottom: 0px;margin-top: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" style="margin-top: 0px;"><img src="assets/img/Group%201.png" style="width: 90%;margin-right: 0;margin-left: 0;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center" style="margin-top: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 work">
+                    <p></p><button class="btn btn-primary" type="button" style="margin-left: 5px;margin-right: 5px;font-size: 12px;margin-top: 5px;margin-bottom: 5px;">UX/UI Design and Development<br></button><button class="btn btn-primary" type="button"
+                        style="margin-right: 5px;margin-left: 5px;font-size: 12px;margin-top: 5px;margin-bottom: 5px;">Web Development<br></button><button class="btn btn-primary" type="button" style="margin-right: 5px;margin-left: 5px;font-size: 12px;margin-top: 5px;margin-bottom: 5px;">Logo/Brand Designing<br></button>
+                    <button
+                        class="btn btn-primary" type="button" style="margin-right: 5px;margin-left: 5px;font-size: 12px;margin-top: 5px;margin-bottom: 5px;">Package Designing<br></button><button class="btn btn-primary" type="button" style="margin-right: 5px;margin-left: 5px;font-size: 12px;margin-top: 5px;margin-bottom: 5px;">App Development<br></button></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic fixed-bottom">
+        <div class="col text-center">
+            <p class="exp"style="color: rgb(157,157,157); visibility: hidden;">Email: <strong>zellabstudios@gmail.com</strong> | Phone: <strong>+91 9495165655</strong></p><button onclick="unhide()" class="btn btn-primary contact" type="button" style="font-size: 14px;margin-bottom: 0px;">Contact us</button></div>
+        <footer>
+            <p class="copyright" style="margin-bottom: -15px;padding-right: 20px;padding-left: 20px;">zellab studios © 2015 - 2020<br></p>
+            <p class="copyright" style="margin-bottom: 7px;padding-right: 20px;padding-left: 20px;">A Brand Development Company based on Kerala, India</p>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        function unhide() {
+            var hid = document.getElementsByClassName("exp");
+            // Emulates jQuery $(element).is(':hidden');
+            if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
+                hid[0].style.visibility = "visible";
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
+</html>
