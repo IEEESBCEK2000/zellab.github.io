@@ -3879,3 +3879,27 @@ input, select, textarea {
 		}
 
 	}
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+     
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.8); 
+    
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(116, 116, 116, 0.705); 
+}
